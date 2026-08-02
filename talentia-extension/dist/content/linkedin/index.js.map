@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/content/linkedin/index.ts"],
+  "sourcesContent": ["console.log(\"\u2705 TalentIA detect\u00F3 LinkedIn\");\r\n\r\nchrome.runtime.sendMessage({\r\n    action: \"linkedin_loaded\"\r\n});"],
+  "mappings": ";AAAA,QAAQ,IAAI,qCAA6B;AAEzC,OAAO,QAAQ,YAAY;AAAA,EACvB,QAAQ;AACZ,CAAC;",
+  "names": []
+}
