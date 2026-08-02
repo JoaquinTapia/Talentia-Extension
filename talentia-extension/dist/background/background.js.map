@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../src/background/background.ts"],
-  "sourcesContent": ["console.log(\"\uD83D\uDE80 TalentIA Extension iniciada.\");\n\nchrome.runtime.onInstalled.addListener(() => {\n  console.log(\"\u2705 TalentIA instalada correctamente.\");\n});\n\nchrome.runtime.onStartup.addListener(() => {\n  console.log(\"\u2705 TalentIA iniciada.\");\n});\n\nchrome.runtime.onMessage.addListener((message, sender, sendResponse) => {\n  console.log(\"\uD83D\uDCE9 Mensaje recibido:\", message);\n\n  sendResponse({\n    success: true,\n    message: \"Mensaje recibido correctamente.\"\n  });\n\n  return true;\n});"],
-  "mappings": ";AAAA,QAAQ,IAAI,wCAAiC;AAE7C,OAAO,QAAQ,YAAY,YAAY,MAAM;AAC3C,UAAQ,IAAI,0CAAqC;AACnD,CAAC;AAED,OAAO,QAAQ,UAAU,YAAY,MAAM;AACzC,UAAQ,IAAI,2BAAsB;AACpC,CAAC;AAED,OAAO,QAAQ,UAAU,YAAY,CAAC,SAAS,QAAQ,iBAAiB;AACtE,UAAQ,IAAI,+BAAwB,OAAO;AAE3C,eAAa;AAAA,IACX,SAAS;AAAA,IACT,SAAS;AAAA,EACX,CAAC;AAED,SAAO;AACT,CAAC;",
-  "names": []
-}
