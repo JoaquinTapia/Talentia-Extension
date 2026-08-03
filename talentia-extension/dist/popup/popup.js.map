@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../src/popup/popup.ts"],
-  "sourcesContent": ["const button = document.getElementById(\"testButton\");\r\n\r\nbutton?.addEventListener(\"click\", () => {\r\n\r\n    chrome.runtime.sendMessage(\r\n        {\r\n            action: \"test\"\r\n        },\r\n        (response) => {\r\n            console.log(response);\r\n        }\r\n    );\r\n\r\n});"],
-  "mappings": ";AAAA,IAAM,SAAS,SAAS,eAAe,YAAY;AAEnD,QAAQ,iBAAiB,SAAS,MAAM;AAEpC,SAAO,QAAQ;AAAA,IACX;AAAA,MACI,QAAQ;AAAA,IACZ;AAAA,IACA,CAAC,aAAa;AACV,cAAQ,IAAI,QAAQ;AAAA,IACxB;AAAA,EACJ;AAEJ,CAAC;",
-  "names": []
-}
